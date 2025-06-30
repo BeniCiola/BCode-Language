@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.bcode]
+@="BCodeFile"
+
+[HKEY_CLASSES_ROOT\BCodeFile]
+@="Archivo de BCode"
+
+[HKEY_CLASSES_ROOT\BCodeFile\DefaultIcon]
+@="C:\\BCode\\bcode_ico.ico"
+
+[HKEY_CLASSES_ROOT\BCodeFile\shell\open\command]
+@="\"C:\\Users\\msiuser\\AppData\\Local\\Programs\\Python\\Python313\\python.exe\" \"C:\\BCode\\main.py\" \"%1\""
